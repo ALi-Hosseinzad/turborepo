@@ -1,0 +1,44 @@
+html,
+body {
+  font-family: 'iranSans';
+}
+
+@font-face {
+  font-family: 'iranSans';
+  src: url('../components/fonts/IRANSansXFaNum-Regular.woff');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'iranSansBold';
+  src: url('../components/fonts/IRANSansXFaNum-Bold.ttf');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'iranSansEnB';
+  src: url('../components/fonts/IRANSansX-Bold.ttf');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'iranSansEn';
+  src: url('../components/fonts/IRANSansX-Regular.ttf');
+  font-display: block;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(223, 221, 221);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(190, 188, 188);
+  border-radius: 5px;
+  border: 3px solid transparent;
+}

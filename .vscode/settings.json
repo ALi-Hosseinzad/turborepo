@@ -1,0 +1,183 @@
+{
+  "files.eol": "\r\n",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": false,
+  "editor.fontVariations": false,
+  "editor.formatOnPaste": false,
+  "eslint.options": {
+    "overrideConfig": {
+      "env": {
+        "browser": true,
+        "es6": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
+      "rules": {
+        "no-debugger": "off"
+      }
+    }
+  },
+  // "eslint.enable": true,
+  // "eslint.workingDirectories": [
+  //   "./apps/admin",
+  //   "./apps/client",
+  //   "./packages/ui/components"
+  // ],
+  // "eslint.options": {
+  //   "rules": {
+  //     "no-console": "off",
+  //     "no-debugger": "off"
+  //   }
+  // },
+  "editor.showUnused": true, //for changing unused import styles it is necessary
+  "workbench.colorCustomizations": {
+    "editorUnnecessaryCode.border": "#dd7aab" //unused codes for example unused imports
+  },
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "typescript.format.semicolons": "remove",
+  "notebook.formatOnSave.enabled": true,
+  "prettier.semi": false,
+  "files.autoSave": "onFocusChange",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "todo-tree.highlights.defaultHighlight": {},
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.highlights.customHighlight": {
+    "[ ]": {
+      "icon": "issue-draft"
+    },
+    "[x]": {
+      "icon": "issue-closed"
+    },
+    "BUG": {
+      "icon": "bug"
+    },
+    "FIXME": {
+      "icon": "flame"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "TODO": {
+      "background": "yellow",
+      "foreground": "green",
+      "gutterIcon": true,
+      "icon": "check",
+      "iconColour": "yellow"
+    },
+    "XXX": {
+      "icon": "x"
+    }
+  },
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.turbo": true
+  },
+  "folder-color.pathColors": [
+    {
+      "folderPath": "ostigan-turborepo\\apps\\web\\",
+      "color": "foldercolorizer.emerald"
+    },
+    {
+      "folderPath": "ostigan-turborepo\\apps\\web\\.eslintrc.js\\",
+      "color": "foldercolorizer.Platinum"
+    },
+    {
+      "folderPath": "ostigan-turborepo\\apps\\admin\\",
+      "color": "foldercolorizer.LightYellow"
+    },
+    {
+      "folderPath": "ostigan-turborepo\\apps\\story-document\\",
+      "color": "foldercolorizer.Copper"
+    },
+    {
+      "folderPath": "ostigan-turborepo\\packages\\",
+      "color": "foldercolorizer.SteelBlue"
+    },
+    {
+      "folderPath": "ostigan-turborepo\\apps\\client\\",
+      "color": "foldercolorizer.LightPink"
+    },
+    {
+      "folderPath": "ostigan-monorepo\\apps\\client\\src\\views\\authorization\\genuine\\",
+      "color": "foldercolorizer.LightRed"
+    },
+    {
+      "folderPath": "ostigan-monorepo\\apps\\client\\src\\views\\authorization\\genuine\\bodyAuthorization\\",
+      "color": "foldercolorizer.LightYellow"
+    },
+    {
+      "folderPath": "ostigan-monorepo\\apps\\client\\src\\views\\authorization\\genuine\\bodyAuthorization\\nationalCard\\",
+      "color": "foldercolorizer.Coral"
+    }
+  ],
+  "cSpell.words": [
+    "bokmark",
+    "classnametitle",
+    "dontpending",
+    "firstname",
+    "Formik",
+    "Iconwarning",
+    "isdisabled",
+    "lastname",
+    "ostigan",
+    "riali",
+    "setfirst",
+    "tanstack",
+    "Toman",
+    "Toust",
+    "آخرین",
+    "آدرس",
+    "ارسال",
+    "اساسنامه",
+    "استیگان",
+    "اصناف",
+    "اطلاعات",
+    "اقتصادی",
+    "امضا",
+    "ایمیل",
+    "بانکی",
+    "پایه",
+    "پستی",
+    "پنجم",
+    "تاریخ",
+    "تایید",
+    "تفاهم",
+    "تولد",
+    "جنسیت",
+    "چهارم",
+    "خانوادگی",
+    "رسمی",
+    "روزنامه",
+    "زبان",
+    "شرکت",
+    "شرکتی",
+    "شماره",
+    "صاحبین",
+    "فارسی",
+    "کارت",
+    "مرحله",
+    "مطابق",
+    "موبایل",
+    "نامه",
+    "هویت"
+  ]
+}

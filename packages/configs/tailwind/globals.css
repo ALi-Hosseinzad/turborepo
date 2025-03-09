@@ -1,0 +1,84 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+:root {
+  --primary-saturation: #01805f;
+  --primary-default: #01bc8d;
+  --primary-hover: #49c8a4;
+  --primary-active: #01684e;
+  --primary-disable: #bebebe;
+  --primary-background: #e9faee;
+
+  --success-default: #2ca562;
+  --success-hover: #69da9c;
+  --success-active: #165733;
+  --success-background: #01ff8d;
+
+  --tint-100: #f3fffc;
+  --tint-200: #d2f3ea;
+  --tint-300: #c2f0e3;
+  --tint-400: #9de6d2;
+  --tint-500: #83dac1;
+  --tint-600: #69d2b4;
+  --tint-650: #ebfcf7;
+  --tint-700: #49c8a4;
+
+  --shade-100: #f1faf9;
+  --shade-200: #01a77d;
+  --shade-300: #01926e;
+  --shade-400: #01684e;
+  --shade-500: #00543f;
+  --shade-600: #014b39;
+  --shade-700: #034535;
+
+  --trueGray-100: #fafafa;
+  --trueGray-150: #fcfcfc;
+  --trueGray-200: #f5f5f5;
+  --trueGray-250: rgba(250, 250, 250, 0.7);
+  --trueGray-300: #e5e5e5;
+  --trueGray-350: #555;
+  --trueGray-400: #d4d4d4;
+  --trueGray-450: #ececec;
+  --trueGray-500: #aeaeae;
+  --trueGray-550: #f6f6f6;
+  --trueGray-600: #737373;
+  --trueGray-700: #555555;
+  --trueGray-800: #404040;
+  --trueGray-900: #282828;
+
+  --orange-default: #ffc17814;
+
+  --error-default: #f5455b;
+  --error-hover: #ffa6b1;
+  --error-active: #d30c25;
+  --error-border: #e06464;
+  --error-background: #fff0f0;
+
+  --warning-default: #ffa63e;
+  --warning-hover: #ffc178;
+  --warning-status: #ffa61c;
+  --warning-active: #7d4400;
+  --warning-border: #f0b100;
+  --warning-background: #fffaf6;
+
+  --orange-light: #ffc17814;
+  --blue-default: #318dff;
+  --stroke: #013b2d;
+
+  --darkTypo: #01291f;
+  --outlineSecondaryBtn: #017456;
+
+  --customWhite: #f7fafa;
+  --grayWhite: #d9d9d9;
+  --color-danger: 243 75 19;
+}
+
+[data-theme='dark'] {
+  --primary-default: #7d4400;
+  --error-hover: #ffc178;
+}

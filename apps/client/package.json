@@ -1,0 +1,54 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3003",
+    "build": "next build ",
+    "start": "next start  --port 3003",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@next/bundle-analyzer": "^14.2.5",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@yudiel/react-qr-scanner": "^2.0.4",
+    "html5-qrcode": "^2.3.8",
+    "jsqr": "^1.4.0",
+    "next": "^13.5.6",
+    "next-nprogress-bar": "^2.3.13",
+    "nextjs-toploader": "^1.6.12",
+    "qrcode": "^1.5.3",
+    "qrcode-reader": "^1.0.4",
+    "react": "latest",
+    "react-confetti": "^6.1.0",
+    "react-dom": "latest",
+    "react-qr-reader": "2.2.1",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-redux": "^9.1.1",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "sharp": "^0.33.4",
+    "swiper": "^11.1.1",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@next/eslint-plugin-next": "^13.4.19",
+    "@ostigan-tailwind/configs": "*",
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "babel-jest": "^29.7.0",
+    "eslint-config-custom": "*",
+    "jest": "^29.7.0",
+    "prettier": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  },
+  "resolutions": {
+    "@types/react": "latest"
+  }
+}

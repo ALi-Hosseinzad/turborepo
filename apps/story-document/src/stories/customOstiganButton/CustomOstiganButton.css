@@ -1,0 +1,15 @@
+button {
+  border: 'none';
+  color: white;
+  padding: 15px 32px;
+  text-align: 'center';
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.success {
+  background-color: yellow;
+}
+.error {
+  background-color: red;
+}

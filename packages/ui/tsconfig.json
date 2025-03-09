@@ -1,0 +1,9 @@
+{
+  "extends": "tsconfig/react-library.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "skipLibCheck": true
+  },
+  "include": [".", "../../apps/admin/src/configs/configNextIntl.ts"],
+  "exclude": ["dist", "build", "node_modules"]
+}

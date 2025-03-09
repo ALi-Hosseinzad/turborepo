@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 4px;
+}
+
+.dontShow-number-input {
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f3fffc;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #01bc8d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #01bc8d;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  direction: rtl;
+  background: #f7fafa;
+}
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #f7fafa inset !important;
+}
+@keyframes sudo {
+  from {
+    /*     -webkit-transform: translateY(-2px); */
+    transform: translateY(-2px);
+  }
+  to {
+    /*     -webkit-transform: translateY(2px); */
+    transform: translateY(2px);
+  }
+}
+
+.ql-container {
+  border: none !important;
+}
+.ql-editor {
+  text-align: right !important;
+}
+.ql-toolbar.ql-snow {
+  border: none !important;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  margin: 12px !important;
+}
+
+@layer components {
+  .title-4xl {
+    @apply font-semibold text-4xl leading-9;
+  }
+  .title-3xl {
+    @apply font-semibold text-3xl leading-9;
+  }
+  .title-2xl {
+    @apply font-semibold text-2xl leading-9;
+  }
+  .title-xl {
+    @apply font-semibold text-xl leading-8;
+  }
+  .title-lg {
+    @apply font-semibold text-lg leading-7;
+  }
+  .title-base {
+    @apply font-semibold text-base leading-8;
+  }
+  .title-sm {
+    @apply font-semibold text-sm leading-7;
+  }
+  .title-xs {
+    @apply font-semibold text-xs leading-6;
+  }
+
+  .text-normal-xl {
+    @apply font-normal text-xl leading-6;
+  }
+  .text-normal-lg {
+    @apply font-normal text-lg leading-6;
+  }
+  .text-normal-base {
+    @apply font-normal text-base leading-8;
+  }
+  .text-normal-sm {
+    @apply font-normal text-sm leading-6;
+  }
+  .text-normal-xs {
+    @apply font-normal text-xs leading-6;
+  }
+  .text-normal-2xs {
+    @apply font-normal text-2xs leading-6;
+  }
+
+  .text-medium-xl {
+    @apply font-medium text-xl leading-8;
+  }
+  .text-medium-lg {
+    @apply font-medium text-lg leading-8;
+  }
+  .text-medium-base {
+    @apply font-medium text-base leading-8;
+  }
+  .text-medium-sm {
+    @apply font-medium text-sm leading-8;
+  }
+  .text-medium-xs {
+    @apply font-medium text-xs leading-6;
+  }
+  .text-medium-2xs {
+    @apply font-medium text-2xs leading-5;
+  }
+
+  /* scrollable element in Tailwind without a scrollbar  */
+  @layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none !important;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none !important; /* IE and Edge */
+      scrollbar-width: none !important; /* Firefox */
+    }
+  }
+}
+
+.inputPadding input {
+  padding: 12.2px;
+}
+
+body {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}

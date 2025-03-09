@@ -1,0 +1,22 @@
+.ql-container {
+  border: none !important;
+}
+.ql-editor {
+  text-align: right !important;
+}
+.ql-toolbar.ql-snow {
+  border: none !important;
+  background-color: var(--trueGray-300);
+  border-radius: 10px;
+  /* margin: 12px !important; */
+}
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+  left: 0 !important;
+  right: auto !important;
+}
+.ql-snow .ql-picker.ql-size {
+  width: 60px;
+}
+.ql-snow .ql-picker.ql-header {
+  width: 90px;
+}

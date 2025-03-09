@@ -1,0 +1,22 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "compilerOptions": {
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "../../packages/ui/types/buttonInterface.tsx",
+    "src/i18n.ts",
+    "src/configs/providers/themeProvider.ts",
+    "src/views/onlinePayment/components/inputs"
+  ],
+  "noImplicitAny": true,
+  "noImplicitThis": true,
+  "strictNullChecks": true
+}

@@ -1,0 +1,113 @@
+.swiper-pagination {
+  position: absolute;
+  bottom: 0px !important;
+}
+
+.swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #01bc8d !important;
+  width: 15px !important;
+  height: 8px !important;
+  border-radius: 4px !important;
+  transition: all 1s linear !important;
+  gap: 2px !important;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-wrapper {
+  padding-top: 30px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  top: 0% !important;
+  margin-top: 3px !important;
+  width: 36px !important;
+  height: 36px !important;
+  border: 1px solid rgb(229, 229, 229, 1);
+  border-radius: 50%;
+  outline: 0;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  z-index: 100;
+}
+.swiper-button-prev {
+  background-image: url('../../../public/svg/arrowRight.svg');
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center;
+  background-color: rgb(229, 229, 229, 1);
+  border: 1px solid rgb(229, 229, 229, 1);
+}
+.swiper-button-next {
+  background-image: url('../../../public/svg/arrowLeft.svg');
+  background-color: #1bdb5b;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center;
+  background-color: rgb(229, 229, 229, 1);
+  border: 1px solid rgb(229, 229, 229, 1);
+}
+.swiper-rtl .swiper-button-prev {
+  position: absolute;
+  right: 93% !important;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1921px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 93% !important;
+  }
+}
+
+@media screen and (min-device-width: 1501px) and (max-device-width: 1921px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 92% !important;
+  }
+}
+@media screen and (min-device-width: 1361px) and (max-device-width: 1500px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 90% !important;
+  }
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1360px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 88% !important;
+  }
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 85% !important;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 87% !important;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (min-device-width: 425px) and (max-device-width: 768px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 78% !important;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (min-device-width: 0px) and (max-device-width: 425px) {
+  .swiper-rtl .swiper-button-prev {
+    right: 70% !important;
+  }
+}
